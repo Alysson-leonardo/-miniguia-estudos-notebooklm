@@ -15,3 +15,12 @@ https://www.youtube.com/watch?v=vAV4Vy4jfkc - princípios SOLID - canal: rockets
 
 Observação: Caso a fernanda kipper e/ou a rocketseat peçam a remoção dos links desse repositório, farei isso.
 
+Prompts de teste:
+
+Interferência de contexto - verificar se a IA dá a mesma resposta para o mesmo prompt caso incluirmos pequenos prompts desconexos no meio das duas respostas.
+Exemplificação: se eu fizer uma pergunta A e a IA me responder B, após isso vou fazer perguntas que não tem relação com a pergunta A, como se eu tivesse aberto outro chat, e após isso vou fazer a pergunta A de novo e verificar se a IA está misturando o contexto das outras perguntas não correlacionadas para reformular a resposta da pergunta A.
+
+Definição de papel - verificar se a IA está comprindo o papel que defini no inicio do prompt
+exemplificação: quero verificar se a IA via agir de forma objetiva, me entregando apenas o que pedi, sem explicar os conceitos e sem me dizer porque tomou alguma decisão, quero apenas que entregue o código estruturado de acordo com os materias.
+
+Alucinação e busca fora domínio - Como o conteúdo é limitado, quero verificar se a IA inventa informação para conseguir entregar uma resposta ou se admite que falta informações. Também quero verificar se a IA tenta buscar fora das fontes que forneci para tentar complementar o conteúdo, porque quero que ela utilize apenas o conteúdo que forneci, mesmo que esteja incompleto.
